@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559623528294",
+    "project_id": "martke-b9639",
+    "storage_bucket": "martke-b9639.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559623528294:android:8809e863a1dddcf6e3f2a7",
+        "android_client_info": {
+          "package_name": "com.example.martke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559623528294-9j9e873evhrk8cqn049ctp0qisa9d6tk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDajJKfsK40Gese33XSogcOTsz4cZXr-lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559623528294-9j9e873evhrk8cqn049ctp0qisa9d6tk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
