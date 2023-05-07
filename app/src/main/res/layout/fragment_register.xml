@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -21,7 +20,7 @@
             style="@style/h3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="110dp"
+            android:layout_marginTop="70dp"
             android:drawableStart="@drawable/ic_kleine_shape"
             android:drawablePadding="6dp"
             android:text="MartKe."
@@ -50,22 +49,45 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:gravity="center"
-            android:text="Don't have an account? Register "
+            android:text="Already have an account? Login "
             android:textAlignment="center"
             app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
             app:layout_constraintTop_toBottomOf="@id/tvLetsRegister" />
+
+        <EditText
+            android:id="@+id/firstName"
+            style="@style/editText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/editTextHeight"
+            android:layout_marginTop="15dp"
+            android:hint="First Name"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
+            app:layout_constraintTop_toBottomOf="@id/tvDontHaveAccount" />
+        <EditText
+            android:id="@+id/lastName"
+            style="@style/editText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/editTextHeight"
+            android:layout_marginTop="15dp"
+            android:hint="LastName"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
+            app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
+            app:layout_constraintTop_toBottomOf="@id/firstName" />
 
         <EditText
             android:id="@+id/email"
             style="@style/editText"
             android:layout_width="0dp"
             android:layout_height="@dimen/editTextHeight"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="15dp"
             android:hint="Email"
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
             app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
-            app:layout_constraintTop_toBottomOf="@id/tvDontHaveAccount" />
+            app:layout_constraintTop_toBottomOf="@id/lastName" />
 
         <EditText
             android:id="@+id/password"
@@ -92,13 +114,14 @@
             app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
             app:layout_constraintTop_toBottomOf="@id/password" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonLoginlogin"
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:id="@+id/buttonRegisterRegister"
             style="@style/blueButtonStyle"
             android:layout_width="0dp"
             android:layout_height="@dimen/mediumButtonHeight"
             android:layout_marginBottom="108dp"
             android:text="Register"
+            app:spinning_bar_color="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/password"
             app:layout_constraintHorizontal_bias="0.5"
@@ -110,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="13dp"
             app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
-            app:layout_constraintTop_toBottomOf="@id/buttonLoginlogin"
+            app:layout_constraintTop_toBottomOf="@id/buttonRegisterRegister"
             android:src="@drawable/facebook_login"
             android:id="@+id/facebookLogin"
             />
@@ -127,7 +150,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="13dp"
             app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
-            app:layout_constraintTop_toBottomOf="@id/buttonLoginlogin"
+            app:layout_constraintTop_toBottomOf="@id/buttonRegisterRegister"
             android:src="@drawable/google_login"
             android:id="@+id/googleLogin"
             />
