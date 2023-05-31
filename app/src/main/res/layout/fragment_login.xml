@@ -44,7 +44,7 @@
             app:layout_constraintTop_toBottomOf="@id/tvAppName" />
 
         <TextView
-            android:id="@+id/tvDontHaveAccount"
+            android:id="@+id/tvDontHaveAccountRegister"
             style="@style/h2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
             app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
-            app:layout_constraintTop_toBottomOf="@id/tvDontHaveAccount" />
+            app:layout_constraintTop_toBottomOf="@id/tvDontHaveAccountRegister" />
 
         <EditText
             android:id="@+id/password"
@@ -92,7 +92,7 @@
             app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
             app:layout_constraintTop_toBottomOf="@id/password" />
 
-        <androidx.appcompat.widget.AppCompatButton
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
             android:id="@+id/buttonLoginlogin"
             style="@style/blueButtonStyle"
             android:layout_width="0dp"
@@ -103,7 +103,9 @@
             app:layout_constraintEnd_toEndOf="@+id/password"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="@id/guidelineloginleft"
-            app:layout_constraintTop_toBottomOf="@id/tvforgotPassword" />
+            app:layout_constraintTop_toBottomOf="@id/tvforgotPassword"
+            app:spinning_bar_color="@color/white"
+            />
 
         <ImageView
             android:layout_width="wrap_content"

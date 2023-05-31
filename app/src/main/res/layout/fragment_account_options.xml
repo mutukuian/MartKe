@@ -57,7 +57,7 @@
             android:layout_marginTop="15dp"
             />
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonRegisterAccount"
+            android:id="@+id/buttonRegisterAccountOptions"
             android:layout_width="@dimen/mediuButtonWidth"
             android:layout_height="@dimen/mediumButtonHeight"
             style="@style/blueButtonStyle"
@@ -72,7 +72,7 @@
             android:layout_width="@dimen/mediuButtonWidth"
             android:layout_height="@dimen/mediumButtonHeight"
             style="@style/whiteButtonStyle"
-            app:layout_constraintTop_toBottomOf="@id/buttonRegisterAccount"
+            app:layout_constraintTop_toBottomOf="@id/buttonRegisterAccountOptions"
             app:layout_constraintStart_toStartOf="@id/tvQuality"
             app:layout_constraintEnd_toEndOf="@id/tvQuality"
             android:text="Login"

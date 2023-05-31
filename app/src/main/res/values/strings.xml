@@ -2,4 +2,6 @@
     <string name="app_name">MartKe</string>
     <string name="rightAddress">The Right Address\nFor Shopping\nAny Day</string>
     <string name="quality">it is now very easy to reach the \nbest quality among the\nproducts on the internet!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
