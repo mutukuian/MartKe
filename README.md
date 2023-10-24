@@ -18,3 +18,6 @@ An Android E-Commerce App Using Kotlin,MVVM Architecture,Coroutines and Dagger h
 
 
 ![Screenshot_20231024-121644](https://github.com/mutukuian/MartKe/assets/94617040/688e0b4c-0df4-4aab-8894-43811d088e1a)
+
+
+![Screenshot_20231024-121602](https://github.com/mutukuian/MartKe/assets/94617040/5a8ff0d1-cc47-4fa3-b3f1-c580ae98b861)
